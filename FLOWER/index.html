@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <script src="style.js"></script>
+    <title>Flowers</title>
+    <!--BS 4.0 CSS LINK-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        .content {
+            position: relative;
+            text-align: center;
+            color: darkorchid;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 40px;
+            left: 16px;
+        }
+    </style>
+
+<script>
+    function buy(){
+        window.alert("Item added");
+
+    }
+    
+    function save(form){
+        var a = form.name.value;
+        var b = form.email.value;
+        var c = form.phno.value;
+
+        alert("Name:" +a);
+        alert("Email:" +b);
+        alert("Phone number:" +c);
+        
+    }
+</script>
+</head>
+<body>
+
+
+    <!-- header starts -->
+    <section>
+
+        <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+            <div class="col-sm-2">
+                <a class="navbar-brand" href="#"><span>
+                        <h2>Flowers <span class="badge bg-secondary"></span></h2>
+                    </span>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <div class="col-sm-2">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home" style="color: black;"><i class="home"
+                                    style="font-size:50px;"></i>
+                                <span class="nav-text">
+                                    <h4>Home <span class="badge bg-secondary"></span></h4>
+                                </span>
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" style="color: black;"><i class="about"
+                                    style="font-size:50px;"></i>
+                                <span class="nav-text">
+                                    <h4>About<span class="badge bg-secondary"></span></h4>
+                                </span>
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products" style="color: black;"><i class="products"
+                                    style="font-size:50px;"></i>
+                                <span class="nav-text">
+                                    <h4>Products <span class="badge bg-secondary"></span></h4>
+                                </span>
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#review" style="color: black;"><i class="review"
+                                    style="font-size:50px;"></i>
+                                <span class="nav-text">
+                                    <h4>Review<span class="badge bg-secondary"></span></h4>
+                                </span>
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" style="color: black;"><i class="contact"
+                                    style="font-size:50px;"></i>
+                                <span class="nav-text">
+                                    <h4>Contact <span class="badge bg-secondary"></span></h4>
+                                </span>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <div class=" border border-3 bg-dark "></div>
+    <!-- header ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <img src="images/home-bg.jpg" alt="flower" style="width:100%; height: 10%;">
+            <div class="top-left">
+                <br><br><br><br><br><br>
+
+                <p class="fs-1">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    Fresh Flowers</p>
+                <br>
+                <p class="fs-3">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Natural & Beautiful flowers </p>
+                <br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"><button type="button" class="btn btn-outline-dark">
+                        Shop Now</button></a>
+            </div>
+            <div class=" border border-3 bg-dark "></div>
+    </section>
+
+    <!-- home section ends  -->
+    <br>
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+        <h1 class="heading d-flex justify-content-center"><strong>About Us </strong> </h1>
+        </div>
+        <br>
+        <div class="row">
+
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <div class="video-container">
+                    <video width="100%" src="images/about-vid.mp4" loop autoplay muted></video>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <div class="content">
+                    <h3>why choose us?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cumque sit nemo pariatur corporis
+                        perspiciatis aspernatur a ullam repudiandae autem asperiores quibusdam omnis commodi alias
+                        repellat
+                        illum, unde optio temporibus.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium ea est commodi incidunt
+                        magni
+                        quia molestias perspiciatis, unde repudiandae quidem.</p>
+                        <a href="#"><button type="button" class="btn btn-outline-dark">
+                            Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <!-- about section ends -->
+
+    <!-- icons section starts  -->
+    <br>
+    <br>
+    <section class="icons-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+
+                    <div class="icons">
+                        <img src="images/icon-1.png" alt="">
+                        <div class="info">
+                            <h3>free delivery</h3>
+                            <span>on all orders</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="icons">
+                        <img src="images\icon-2.png" alt="">
+                        <div class="info">
+                            <h3>10 days returns</h3>
+                            <span>moneyback guarantee</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="icons">
+                        <img src="images/icon-3.png" alt="">
+                        <div class="info">
+                            <h3>offer & gifts</h3>
+                            <span>on all orders</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="icons">
+                        <img src="images/icon-4.png" alt="">
+                        <div class="info">
+                            <h3>secure paymens</h3>
+                            <span>protected by paypal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- icons section ends  -->
+
+    <!-- product section starts  -->
+    <br> <br>
+    <section class="products" id="products">
+        <h1 class="heading d-flex justify-content-center"> <strong>Latest Products</strong></h1>
+        <br> <br>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <div class="container-sm">
+                    <div class="card text-center border-dark" style="width: 18rem;">
+                        <img src="images/img-1.jpg" class="card-img-top" alt="...">
+                        <div class=" border border-3 bg-dark "></div>
+                        <div class="card-body">
+
+                            <h5 class="card-title">Flower Pot</h5>
+                            <p class="card-text">$12.99 </p>
+
+                           <button onclick="buy()"><a href="#" class="btn btn-primary">Buy</a></button> 
+                        </div>
+                    </div>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="container-sm">
+                    <div class="card text-center border-dark" style="width: 18rem;">
+                        <img src="images/img-2.jpg" class="card-img-top" alt="...">
+                        <div class=" border border-3 bg-dark "></div>
+                        <div class="card-body">
+
+                            <h5 class="card-title">Flower Pot</h5>
+                            <p class="card-text">$12.99 </p>
+
+                           <button onclick="buy()"><a href="#" class="btn btn-primary">Buy</a></button>
+                        </div>
+                    </div>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="container-sm">
+                    <div class="card text-center border-dark" style="width: 18rem;">
+                        <img src="images/img-3.jpg" class="card-img-top" alt="...">
+                        <div class=" border border-3 bg-dark "></div>
+                        <div class="card-body">
+
+                            <h5 class="card-title">Flower Pot</h5>
+                            <p class="card-text">$12.99 </p>
+
+                        <button onclick="buy()"> <a href="#" class="btn btn-primary">Buy</a></button>
+                        </div>
+                    </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br>
+
+    <section>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <div class="container-sm">
+                    <div class="card text-center border-dark" style="width: 18rem;">
+                        <img src="images/img-4.jpg" class="card-img-top" alt="...">
+                        <div class=" border border-3 bg-dark "></div>
+                        <div class="card-body">
+
+                            <h5 class="card-title">Flower Pot</h5>
+                            <p class="card-text">$12.99 </p>
+
+                      <button onclick="buy()"> <a href="#" class="btn btn-primary">Buy</a></button>
+                        </div>
+                    </div>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="container-sm">
+                    <div class="card text-center border-dark" style="width: 18rem;">
+                        <img src="images/img-5.jpg" class="card-img-top" alt="...">
+                        <div class=" border border-3 bg-dark "></div>
+                        <div class="card-body">
+
+                            <h5 class="card-title">Flower Pot</h5>
+                            <p class="card-text">$12.99 </p>
+
+                  <button onclick="buy()"> <a href="#" class="btn btn-primary">Buy</a></button>         
+                        </div>
+                    </div>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="container-sm">
+                    <div class="card text-center border-dark" style="width: 18rem;">
+                        <img src="images/img-6.jpg" class="card-img-top" alt="...">
+                        <div class=" border border-3 bg-dark "></div>
+                        <div class="card-body">
+
+                            <h5 class="card-title">Flower Pot</h5>
+                            <p class="card-text">$12.99 </p>
+
+                <button onclick="buy()"><a href="#" class="btn btn-primary">Buy</a></button>            
+                        </div>
+                    </div>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-md-1"></div>
+        </div>
+    </section>
+    <!-- product section ends  -->
+
+
+    <!-- review section starts  -->
+    <br> <br>
+    <section class="review" id="review">
+        <h1 class="heading d-flex justify-content-center"><strong>Customer's Review</strong></h1>
+        <br> <br>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-3">
+                <div class="card border-1" style="width: 18rem;">
+                    <img src="images/pic-1.png" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.
+                        <div class=" border border-3 bg-dark "></div>
+                        <h3>John Deo</h3>
+                        <span>Happy Customer</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/pic-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.
+                        <div class=" border border-3 bg-dark "></div>
+                        <h3>Anny Desuza</h3>
+                        <span>Happy Customer</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/pic-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.
+                        <div class=" border border-3 bg-dark "></div>
+                        <h3>Jaan Devid</h3>
+                        <span>Happy Customer</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+    </section>
+    <br><br>
+    <!-- review section ends  -->
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+        <h1 class="heading d-flex justify-content-center">Contact Us</h1>
+        <br>
+
+        <div class="container d-flex justify-content-center">
+            <fieldset>
+            <form action="#" method="get" id="signup">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <br>
+                        <input type="text" id="name" name="name" placeholder="Enter your fullname" />
+                        <small></small>
+                    </div>
+                    <br>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="text" id="email" name="email" placeholder="Enter your email address" />
+                        <small></small>
+                    </div>
+                    <br>
+                    <div class="field">
+                        <label for="tel">Phone Number</label>
+                        <br>
+                        <input type="number" id="tel" name="phno" placeholder="Enter your ph no" />
+                        <small></small>
+                    </div>
+                    <br> <br>
+                    <div class="field d-flex justify-content-center">
+                        <input type="button" name="button" value="Save" onclick="save(this.form)">
+                    </div>
+            </form>
+        </fieldset>
+        </div>
+        <script src="js\style.js"></script>
+
+        
+
+    </section>
+    <br><br><br>
+    <!--Footer section-->
+    <footer>
+        <div class="container card links-footer">
+            <div class="row">
+                <div class="col-8" style="padding-top: 10px;">
+                    <span class="footer-links">ABOUT Flowers</span>
+                    <span class="footer-links">GIFT CARD</span>
+                    <span class="footer-links">FEEDBACK</span>
+                    <span class="footer-links">CONTACT US</span>
+                    <span class="footer-links">BRAND T & C</span>
+                    <span class="footer-links">OFFERS T & C</span>
+                </div>
+                <div class="col-1">
+                </div>
+                <div class="col-3">
+                    <img height="37px" width="96px" src="images/google.png" style="padding-top: 10px;" />
+                    <img height="37px" width="96px" src="images/app.png" style="padding-top: 10px;" />
+                </div>
+            </div>
+            <hr class="horizontal-line">
+            <div class="row">
+                <div class="col-6">
+                    <img height="30px" width="40px" src="images/facebook.png" style="padding-left: 10px;">
+                    <img height="30px" width="60px" src="images/instagram.png" style="padding-left: 30px;">
+                    <img height="30px" width="75px" src="images/youtube.png" style="padding-left: 30px;">
+                </div>
+                <div class="col-6">
+                    <small style="float: right;">© Copyright 2022 Flowers. All Rights Reserved.</small>
+                </div>
+            </div>
+            <br>
+
+        </div>
+        </div>
+    </footer>
+    <br>
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
